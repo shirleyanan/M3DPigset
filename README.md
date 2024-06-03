@@ -12,6 +12,12 @@
 
 # Description
 M3DPigset contains a total of 57 video sequences of pigs running, walking, and jumping, with a total of 8 pigs. Detailed data information is as follows:
+## Joints
+We defined 26 joints for pig.
+<p align="center">
+<img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/Fig2.jpg" width="95%">
+</p>
+
 **Labeled_2D**
 <p align="center">
 <img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180528.png" width="95%">
