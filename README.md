@@ -4,3 +4,8 @@
 <p align="center">
 <img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/Fig1.jpg" width="95%">
 </p>
+
+# Download
+The labled 2D pose (8.02GB for zipflie. 9.23G after unzip, yet occupy 10.7G space on windows) can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1RC2eLC0VJ-3wMhJj90IV0IsVjZSvO2I6)
+
+# Description
