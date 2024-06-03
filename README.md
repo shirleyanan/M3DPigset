@@ -15,7 +15,7 @@ M3DPigset contains a total of 57 video sequences of pigs running, walking, and j
 <img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180528.png" width="95%">
 </p>
 
-The 2D pose situation predicted by the trained [Deeplabcut](https://github.com/DeepLabCut/DeepLabCut.
+The 2D pose situation predicted by the trained [Deeplabcut](https://github.com/DeepLabCut/DeepLabCut).
 <p align="center">
 <img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180544.png" width="95%">
 </p>
