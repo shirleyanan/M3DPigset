@@ -10,3 +10,11 @@ The labled 2D pose (8.02GB for zipflie. 9.23G after unzip, yet occupy 10.7G spac
 The sequence can be download frome [Google Drive](https://drive.google.com/drive/folders/1RC2eLC0VJ-3wMhJj90IV0IsVjZSvO2I6)
 
 # Description
+M3DPigset contains a total of 57 video sequences of pigs running, walking, and jumping, with a total of 8 pigs. Detailed data information is as follows:
+<p align="center">
+<img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180528.png" width="95%">
+</p>
+The 2D pose situation predicted by the trained Deeplbucut.
+<p align="center">
+<img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180544.png" width="95%">
+</p>
