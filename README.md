@@ -6,7 +6,7 @@
 </p>
 
 # Download
-The labled 2D pose (8.02GB for zipflie. 9.23G after unzip, yet occupy 10.7G space on windows) can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1RC2eLC0VJ-3wMhJj90IV0IsVjZSvO2I6)
+The labled 2D pose (4.07GB for zipflie) can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1RC2eLC0VJ-3wMhJj90IV0IsVjZSvO2I6)
 The sequence can be download frome [Google Drive](https://drive.google.com/drive/folders/1RC2eLC0VJ-3wMhJj90IV0IsVjZSvO2I6)
 
 # Description
