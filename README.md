@@ -6,8 +6,9 @@
 </p>
 
 # Download
-The labled 2D pose (4.07GB for zipflie) can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1RC2eLC0VJ-3wMhJj90IV0IsVjZSvO2I6)
-The sequence can be download frome [Google Drive](https://drive.google.com/drive/folders/1RC2eLC0VJ-3wMhJj90IV0IsVjZSvO2I6)
+> [Labeled_2D] The labled 2D pose (4.07GB for zipflie) can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1RC2eLC0VJ-3wMhJj90IV0IsVjZSvO2I6).
+
+The predicted 2D pose with 3D can be download frome [Google Drive](https://drive.google.com/drive/folders/1RC2eLC0VJ-3wMhJj90IV0IsVjZSvO2I6).
 
 # Description
 M3DPigset contains a total of 57 video sequences of pigs running, walking, and jumping, with a total of 8 pigs. Detailed data information is as follows:
