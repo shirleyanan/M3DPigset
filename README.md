@@ -31,7 +31,7 @@ For each pig, this data is available in the form of:
 * There are a total of 18168 trained [Deeplabcut](https://github.com/DeepLabCut/DeepLabCut) predicted 2D poses and corresponding 4542 3D poses, see the details in the description of **Predicted_2D3D**.
 
 ## Layout 
-**Labeled_2D**
+### **Labeled_2D**
 </p>
 <img 
     style="display: block; 
@@ -58,7 +58,7 @@ The structure of this folder is as follows:
 - ...
 
   
-**Predicted_2D3D** 
+### **Predicted_2D3D** 
 </p>
 <img 
     style="display: block; 
