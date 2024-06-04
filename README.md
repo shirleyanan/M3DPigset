@@ -11,29 +11,40 @@
 **Predicted_2D3D:** The predicted 2D pose (12.4GB for zipflie) with 3D can be download frome [quark](https://drive.google.com/drive/folders/1RC2eLC0VJ-3wMhJj90IV0IsVjZSvO2I6).
 
 # Description
-M3DPigset contains a total of 57 video sequences of pigs running, walking, and jumping, with a total of 8 pigs. Detailed data information is as follows:
-
-For each dog, this data is available in the form of:
-
-* multi-view RGB footage recorded at 25 fps
-* Partially labeled multi-view 2D joints, see the details in the description of **Labeled_2D**.
-
-
-
-## Joints
 We defined 26 joints for pig.
 <p align="center">
 <img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/Fig2.jpg" width="95%">
 </p>
 
-## **Labeled_2D**
+M3DPigset contains a total of 57 video sequences of pigs running, walking, and jumping, with a total of 8 pigs. Detailed data information is as follows:
+
+For each pig, this data is available in the form of:
+
+* Multi-view RGB footage recorded at 25 fps
+* Partially labeled multi-view 2D joints, see the details in the description of **Labeled_2D**.There are a total of 5548 images.
+* There are a total of 18168 trained [Deeplabcut](https://github.com/DeepLabCut/DeepLabCut) predicted 2D poses and corresponding 4542 3D poses, see the details in the description of **Predicted_2D3D**.
+
+## Layout 
+**Labeled_2D**
 <p align="center">
 <img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180528.png" width="95%">
 </p>
+Data for each pig is located in its own folder. The structure of this folder is as follows:
 
+- Jump1_middle2_D01
+  - CollectedData_shirley.csv
+  - CollectedData_shirley.h5
+  - Image3.jpg
+  - ...
+- Jump1_middle2_D02
+  - CollectedData_shirley.csv
+  - CollectedData_shirley.h5
+  - Image3.jpg
+  - ...
+- ...
 
-## **Predicted_2D3D** 
-The 2D pose situation predicted by the trained [Deeplabcut](https://github.com/DeepLabCut/DeepLabCut).
+  
+**Predicted_2D3D** 
 <p align="center">
 <img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180544.png" width="95%">
 </p>
