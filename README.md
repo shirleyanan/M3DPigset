@@ -8,22 +8,26 @@
 # Download
 **Labeled_2D:** The labled 2D pose (4.07GB for zipflie) can be downloaded from [quark](https://pan.quark.cn/s/00d2f8ba1447)(extract code:MLp5).
 
-**Predicted_2D3D:** The predicted 2D pose with 3D can be download frome [quark](https://drive.google.com/drive/folders/1RC2eLC0VJ-3wMhJj90IV0IsVjZSvO2I6).
+**Predicted_2D3D:** The predicted 2D pose (12.4GB for zipflie) with 3D can be download frome [quark](https://drive.google.com/drive/folders/1RC2eLC0VJ-3wMhJj90IV0IsVjZSvO2I6).
 
 # Description
 M3DPigset contains a total of 57 video sequences of pigs running, walking, and jumping, with a total of 8 pigs. Detailed data information is as follows:
+
+For each dog, this data is available in the form of:
+
 ## Joints
 We defined 26 joints for pig.
 <p align="center">
 <img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/Fig2.jpg" width="95%">
 </p>
 
-**Labeled_2D**
+## **Labeled_2D**
 <p align="center">
 <img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180528.png" width="95%">
 </p>
 
-**Predicted_2D3D** 
+
+## **Predicted_2D3D** 
 The 2D pose situation predicted by the trained [Deeplabcut](https://github.com/DeepLabCut/DeepLabCut).
 <p align="center">
 <img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180544.png" width="95%">
