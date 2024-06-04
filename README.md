@@ -3,6 +3,7 @@
 
 <p align="center">
 <img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/Fig1.jpg" width="95%">
+<img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/github.gif" width="95%">
 </p>
 
 # Download
