@@ -3,7 +3,7 @@
 
 <p align="center">
 <img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/Fig1.jpg?format=1000w?format=500w" height="250">
-<img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/github.gif?format=1000w?format=1000w" height="500">
+<img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/github.gif?format=1000w?format=500w" height="250">
 </p>
 
 # Download
