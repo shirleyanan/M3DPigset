@@ -74,6 +74,7 @@ Data for each pig is located in its own folder. The `4_View_scene.json` file und
 `dlc`
 
 ```shell
+**markers**
 ['l_ear', 'r_ear', 'chin', 'neck_front', 'neck_back','spine_1', 'spine_6', 'l_shoulder', 'l_front_knee', 'l_front_ankle', 'l_front_paw',
             'r_shoulder', 'r_front_knee', 'r_front_ankle', 'r_front_paw', 'l_hip', 'l_back_knee', 'l_back_ankle', 'l_back_paw',
             'r_hip', 'r_back_knee', 'r_back_ankle', 'r_back_paw','tail_1', 'tail_4', 'tail_7']
