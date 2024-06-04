@@ -71,13 +71,34 @@ The structure of this folder is as follows:
 
 Data for each pig is located in its own folder. The `4_View_scene.json` file under the `extrinsic_calib` folder stores the intrinsic and extrinsic parameters of 4 cameras, in the order of `cam0`, `cam1`, `cam2`, `cam3`.
 
+`dlc`
+
+```shell
+['l_ear', 'r_ear', 'chin', 'neck_front', 'neck_back','spine_1', 'spine_6', 'l_shoulder', 'l_front_knee', 'l_front_ankle', 'l_front_paw',
+            'r_shoulder', 'r_front_knee', 'r_front_ankle', 'r_front_paw', 'l_hip', 'l_back_knee', 'l_back_ankle', 'l_back_paw',
+            'r_hip', 'r_back_knee', 'r_back_ankle', 'r_back_paw','tail_1', 'tail_4', 'tail_7']
+```
 
 The structure of this folder is as follows:
 
 - dataset
-  - 
-  - CollectedData_shirley.h5
-  - Image3.jpg
+  - big
+    - Run3
+      - dlc
+        - cam0_Run3_big_D02DLC_resnet152_Multi-view-pig-jointsJun26shuffle1_1030000_filtered.csv
+        - cam1_Run3_big_D01DLC_resnet152_Multi-view-pig-jointsJun26shuffle1_1030000_filtered.csv
+        - ...
+      - 3D
+        - sba.pickle
+        - ...
+      - images
+        - cam0
+          - Image0.jpg
+          - Image1.jpg
+          - ...
+        - ...
+    - ...
+  - middle1
   - ...
 - extrinsic_calib
   - 4_View_scene.json
