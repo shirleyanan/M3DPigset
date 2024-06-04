@@ -12,9 +12,15 @@
 
 # Description
 We defined 26 joints for pig.
-<p align="center">
-<img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/Fig2.jpg" width="70%">
 </p>
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 70%;"
+    src="https://github.com/shirleyanan/M3DPigset/blob/main/images/Fig2.jpg" 
+    alt="">
+</img>
 
 M3DPigset contains a total of 57 video sequences of pigs running, walking, and jumping, with a total of 8 pigs. Detailed data information is as follows:
 
@@ -36,7 +42,8 @@ For each pig, this data is available in the form of:
     alt="">
 </img>
 
-Data for each pig is located in its own folder. The structure of this folder is as follows:
+  Data for each pig is located in its own folder. `Jump1_middle2_D01` represents the `sequence_pigID_view`.`CollectedData_shirley.csv` stores the joint positions corresponding to each `Image*.jpg`.
+The structure of this folder is as follows:
 
 - Jump1_middle2_D01
   - CollectedData_shirley.csv
@@ -52,9 +59,16 @@ Data for each pig is located in its own folder. The structure of this folder is 
 
   
 **Predicted_2D3D** 
-<p align="center">
-<img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180544.png" width="70%">
 </p>
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 45%;"
+    src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180544.png" 
+    alt="">
+</img>
+
 Data for each pig is located in its own folder. The `4_View_scene.json` file under the `extrinsic_calib` folder stores the intrinsic and extrinsic parameters of 4 cameras, in the order of `cam0`, `cam1`, `cam2`, `cam3`.
 
 
@@ -67,6 +81,7 @@ The structure of this folder is as follows:
   - ...
 - extrinsic_calib
   - 4_View_scene.json
+    
 ### Note:
 In **Labeled_2D**, `D01` view corresponds to `cam1` in **Predicted_2D3D**, `D02` corresponds to `cam0`, `D03` corresponds to `cam2`, `D04` corresponds to `cam3`.
 
