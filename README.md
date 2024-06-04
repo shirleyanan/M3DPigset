@@ -15,6 +15,11 @@ M3DPigset contains a total of 57 video sequences of pigs running, walking, and j
 
 For each dog, this data is available in the form of:
 
+* multi-view RGB footage recorded at 25 fps
+* Partially labeled multi-view 2D joints, see the details in the description of **Labeled_2D**.
+
+
+
 ## Joints
 We defined 26 joints for pig.
 <p align="center">
