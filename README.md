@@ -26,6 +26,7 @@ For each pig, this data is available in the form of:
 
 ## Layout 
 **Labeled_2D**
+</p>
 <img 
     style="display: block; 
            margin-left: auto;
