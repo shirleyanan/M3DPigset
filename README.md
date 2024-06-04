@@ -8,12 +8,12 @@
 # Download
 **Labeled_2D:** The labled 2D pose (4.07GB for zipflie) can be downloaded from [quark](https://pan.quark.cn/s/00d2f8ba1447)(extract code:MLp5).
 
-**Predicted_2D3D:** The predicted 2D pose (12.4GB for zipflie) with 3D can be download frome [quark](https://drive.google.com/drive/folders/1RC2eLC0VJ-3wMhJj90IV0IsVjZSvO2I6).
+**Predicted_2D3D:** The predicted 2D pose (12.4GB for zipflie) with 3D can be download frome [quark](https://pan.quark.cn/s/cb81b1c0e248)(extract code:FDhr).
 
 # Description
 We defined 26 joints for pig.
 <p align="center">
-<img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/Fig2.jpg" width="50%">
+<img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/Fig2.jpg" width="70%">
 </p>
 
 M3DPigset contains a total of 57 video sequences of pigs running, walking, and jumping, with a total of 8 pigs. Detailed data information is as follows:
@@ -26,9 +26,15 @@ For each pig, this data is available in the form of:
 
 ## Layout 
 **Labeled_2D**
-<p align="center">
-<img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180528.png" width="50%">
-</p>
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 45%;"
+    src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180528.png" 
+    alt="">
+</img>
+
 Data for each pig is located in its own folder. The structure of this folder is as follows:
 
 - Jump1_middle2_D01
@@ -46,9 +52,9 @@ Data for each pig is located in its own folder. The structure of this folder is 
   
 **Predicted_2D3D** 
 <p align="center">
-<img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180544.png" width="50%">
+<img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180544.png" width="70%">
 </p>
-Data for each pig is located in its own folder. The `4_View_scene.json` file under the 'extrinsic_calib' folder stores the intrinsic and extrinsic parameters of 4 cameras, in the order of 'cam0', 'cam1', 'cam2', 'cam3'.
+Data for each pig is located in its own folder. The `4_View_scene.json` file under the `extrinsic_calib` folder stores the intrinsic and extrinsic parameters of 4 cameras, in the order of `cam0`, `cam1`, `cam2`, `cam3`.
 
 
 The structure of this folder is as follows:
@@ -61,5 +67,5 @@ The structure of this folder is as follows:
 - extrinsic_calib
   - 4_View_scene.json
 ### Note:
-In **Labeled_2D**, 'D01' view corresponds to 'cam1' in **Predicted_2D3D**, 'D02' corresponds to 'cam0', 'D03' corresponds to 'cam2', 'D04' corresponds to 'cam3'.
+In **Labeled_2D**, `D01` view corresponds to `cam1` in **Predicted_2D3D**, `D02` corresponds to `cam0`, `D03` corresponds to `cam2`, `D04` corresponds to `cam3`.
 
