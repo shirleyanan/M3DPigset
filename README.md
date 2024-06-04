@@ -69,9 +69,10 @@ The structure of this folder is as follows:
     alt="">
 </img>
 
-Data for each pig is located in its own folder. The `4_View_scene.json` file under the `extrinsic_calib` folder stores the intrinsic and extrinsic parameters of 4 cameras, in the order of `cam0`, `cam1`, `cam2`, `cam3`.
+1. Data for each pig is located in its own folder. The `4_View_scene.json` file under the `extrinsic_calib` folder stores the intrinsic and extrinsic parameters of 4 cameras, in the order of `cam0`, `cam1`, `cam2`, `cam3`.
 
-`dlc`
+2. `dlc` stores continuous frames of 2D poses from multiple viewpoints.
+3. `sba.pkl` in 3D contains the corresponding 3D poses, with dimensions `[frames, 26, 3, 1]`, representing the sequence length `frames` and the 3D coordinates of `26` joints (ordered according to the **`markers`** below).
 
 ```shell
 **markers**
