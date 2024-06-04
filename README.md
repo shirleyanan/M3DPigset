@@ -48,7 +48,7 @@ Data for each pig is located in its own folder. The structure of this folder is 
 <p align="center">
 <img src="https://github.com/shirleyanan/M3DPigset/blob/main/images/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20240603180544.png" width="50%">
 </p>
-Data for each pig is located in its own folder. The '4_View_scene.json' file under the 'extrinsic_calib' folder stores the intrinsic and extrinsic parameters of 4 cameras, in the order of 'cam0', 'cam1', 'cam2', 'cam3'.
+Data for each pig is located in its own folder. The `4_View_scene.json` file under the 'extrinsic_calib' folder stores the intrinsic and extrinsic parameters of 4 cameras, in the order of 'cam0', 'cam1', 'cam2', 'cam3'.
 
 
 The structure of this folder is as follows:
