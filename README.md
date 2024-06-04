@@ -6,9 +6,9 @@
 </p>
 
 # Download
-**Labeled_2D:** The labled 2D pose (4.07GB for zipflie) can be downloaded from [quark](https://pan.quark.cn/s/00d2f8ba1447)(extract code:MLp5).
+**Labeled_2D:** The labled 2D pose (4.07GB for zipflie) can be downloaded from [quark](https://pan.quark.cn/s/00d2f8ba144)(extract code:MLp5).
 
-**Predicted_2D3D:** The predicted 2D pose (12.4GB for zipflie) with 3D can be download frome [quark](https://pan.quark.cn/s/cb81b1c0e248)(extract code:FDhr).
+**Predicted_2D3D:** The predicted 2D pose (12.4GB for zipflie) with 3D can be download frome [quark](https://pan.quark.cn/s/cb81b1c0e24)(extract code:FDhr).
 
 # Description
 We defined 26 joints for pig.
