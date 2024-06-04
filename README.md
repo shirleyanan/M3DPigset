@@ -109,3 +109,15 @@ The structure of this folder is as follows:
 ### Note:
 In **Labeled_2D**, `D01` view corresponds to `cam1` in **Predicted_2D3D**, `D02` corresponds to `cam0`, `D03` corresponds to `cam2`, `D04` corresponds to `cam3`.
 
+## Citation
+If you find this dataset useful, we would kindly ask you to cite:
+
+```
+@InProceedings{ ,
+author = {Li Xiang, Hui Zhou, Zixuan Hu, Tian Jiang, Haiming Gan, Tomas Norton, Yueju Xue},
+title = {A Multi-view Spatio-temporal Optimization Framework for 3D Pig Pose Reconstruction},
+booktitle = {},
+month = {},
+year = {}
+}
+```
